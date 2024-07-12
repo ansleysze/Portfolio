@@ -1,0 +1,92 @@
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hmenu-nav {
+        display: flex;
+      }
+      #experience,
+      .experience-details-container {
+        margin-top: 2rem;
+      }
+      #profile,
+      .section-container {
+        display: block;
+      }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 4%;
+  }
+  
+
+  .profilepic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .section__pic-container {
+    padding-top: 2rem;
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 1rem;
+  }
+  .about-containers {
+    margin-top: 0;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+  }
+  .color-container {
+    width: 100%; /* Make the containers full width */
+    max-width: 300px; /* Limit maximum width to maintain consistency */
+    margin: 0 auto 1rem; /* Center align and provide bottom margin */
+  }
+
+}
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  .top-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+}
